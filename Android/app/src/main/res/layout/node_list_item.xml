@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RelativeLayout
+            android:id="@+id/bakery_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:background="@drawable/round_layout2"
+            android:padding="5dp"
+            android:layout_marginTop="5px"
+            style="@style/CardView.Light"
+            android:theme="@style/CardView.Light">
+
+        <TextView
+                android:id="@+id/itemName"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:layout_toEndOf="@+id/logo_layout"
+                android:layout_marginStart="5dp"
+                android:layout_alignParentTop="true"
+                android:textColor="@android:color/holo_green_light"/>
+
+        <TextView
+                android:id="@+id/itemSoil"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:textSize="14dp"
+                android:layout_marginTop="5dp"
+                android:layout_alignStart="@+id/itemName"
+                android:layout_alignEnd="@+id/itemName"
+                android:layout_below="@+id/itemName"
+                />
+        <TextView
+                android:id="@+id/itemSoil2"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:textSize="14dp"
+                android:layout_marginTop="5dp"
+                android:layout_alignStart="@+id/itemName"
+                android:layout_alignEnd="@+id/itemName"
+                android:layout_below="@+id/itemName"
+                />
+
+        <TextView
+                android:id="@+id/itemLight"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:textSize="14dp"
+                android:layout_alignStart="@+id/itemName"
+                android:layout_alignEnd="@+id/itemName"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/itemSoil"/>
+
+        <TextView
+                android:id="@+id/itemWind"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:textSize="14dp"
+                android:layout_alignStart="@+id/itemName"
+                android:layout_alignEnd="@+id/itemName"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:layout_below="@+id/itemLight"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

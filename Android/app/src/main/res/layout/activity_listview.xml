@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".RegionActivity"
+              android:background="@drawable/side_nav_bar"
+              android:screenOrientation="portrait">
+
+    <Button
+            android:id="@+id/startActBtn"
+            android:text="Home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/CListView"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:padding="15px"
+            android:layout_alignParentTop="true"
+            android:background="@color/white"
+            >
+        android:id="@+id/listings_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightGray">
+    </ListView>
+</LinearLayout>

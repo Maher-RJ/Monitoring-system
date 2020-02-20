@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+
+    <RelativeLayout
+            android:id="@+id/bakery_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:background="@drawable/round_layout2"
+            android:padding="5dp"
+            android:layout_marginTop="5px"
+            style="@style/CardView.Light"
+            android:theme="@style/CardView.Light">
+
+        <com.jjoe64.graphview.GraphView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:id="@+id/maingraph"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"
+                android:layout_alignParentTop="true"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:id="@+id/name"
+                android:layout_marginTop="20dp"
+                android:layout_alignStart="@+id/maingraph"
+                android:layout_alignEnd="@+id/maingraph"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@drawable/welcome11">
+
+
+
+    <RelativeLayout
+            android:id="@+id/bakery_info"
+            style="@style/CardView.Light"
+            android:layout_width="match_parent"
+            android:layout_height="3000px"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_marginTop="0px"
+            android:padding="5dp"
+            android:theme="@style/CardView.Light">
+
+
+
+
+        <TextView
+                android:id="@+id/itemLight"
+                android:layout_width="115dp"
+                android:layout_height="51dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="29dp"
+                android:layout_marginBottom="77dp"
+                android:textColor="#FFFD961F"
+                android:textSize="22sp" />
+
+        <TextView
+                android:id="@+id/itemPH"
+                android:layout_width="115dp"
+                android:layout_height="51dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="240dp"
+                android:layout_marginBottom="77dp"
+                android:textColor="#FFFD961F"
+                android:textSize="24sp" />
+
+        <TextView
+                android:id="@+id/itemSoil2"
+                android:layout_width="130dp"
+                android:layout_height="51dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="220dp"
+                android:layout_marginBottom="310dp"
+                android:textColor="#FFFD961F"
+                android:textSize="22sp" />
+
+        <TextView
+                android:id="@+id/itemWeather2"
+                android:layout_width="130dp"
+                android:layout_height="51dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="220dp"
+                android:layout_marginBottom="540dp"
+                android:textColor="#FFFD961F"
+                android:textSize="22sp" />
+
+        <TextView
+                android:id="@+id/itemSoil"
+                android:layout_width="130dp"
+                android:layout_height="51dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="310dp"
+                android:textColor="#FFFD961F"
+                android:textSize="22sp" />
+
+        <TextView
+                android:id="@+id/itemWeather"
+                android:layout_width="130dp"
+                android:layout_height="51dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="540dp"
+                android:textColor="#FFFD961F"
+                android:textSize="22sp" />
+
+        <TextView
+                android:id="@+id/itemAt"
+                android:layout_width="397dp"
+                android:layout_height="54dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginBottom="740dp"
+                android:textColor="#FFFD961F"
+                android:textSize="20sp" />
+
+        <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="190dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="110dp"
+                app:srcCompat="@drawable/sunlight" />
+
+        <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="140dp"
+                android:layout_height="190dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="225dp"
+                android:layout_marginBottom="110dp"
+                app:srcCompat="@drawable/ph" />
+
+        <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="140dp"
+                android:layout_height="190dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="250dp"
+                android:layout_marginBottom="340dp"
+                app:srcCompat="@drawable/moisture" />
+
+        <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="140dp"
+                android:layout_height="190dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="260dp"
+                android:layout_marginBottom="570dp"
+                app:srcCompat="@drawable/temperture" />
+
+        <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="140dp"
+                android:layout_height="190dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="340dp"
+                app:srcCompat="@drawable/soiltemp" />
+
+        <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="140dp"
+                android:layout_height="190dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="570dp"
+                app:srcCompat="@drawable/humidity" />
+
+
+
+
+    </RelativeLayout>
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>

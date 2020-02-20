@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/welcome"
+
+        tools:context=".LoginActivity">
+
+
+    <EditText
+            android:id="@+id/loginemail"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="485dp"
+            android:layout_marginEnd="8dp"
+            android:autoText="false"
+            android:background="#03A9F4"
+            android:backgroundTint="#BE3C3C43"
+            android:drawableLeft="@drawable/ic_action_email1"
+            android:ems="10"
+            android:hint="maherj@kth.se"
+            android:inputType="textEmailAddress"
+            android:textColor="#FF9800"
+            android:textColorHighlight="#FF9800"
+            android:textColorHint="#FF9800"
+            android:textColorLink="#FF9800"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+            android:id="@+id/password"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginEnd="8dp"
+            android:background="#03A9F4"
+            android:backgroundTint="#BE3C3C43"
+            android:drawableLeft="@drawable/ic_action_pass1"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#FF9800"
+            android:textColorHighlight="#FF9800"
+            android:textColorHint="#FF9800"
+            android:textColorLink="#FF9800"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginemail" />
+
+    <Button
+            android:id="@+id/login"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="630dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#FF9800"
+            android:clickable="true"
+            android:onClick="onButtonClickLogin"
+            android:text="submit"
+            android:textColor="#171718"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/password"
+            app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <TextView
+            android:id="@+id/msg"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="#FF9800"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/login" />
+
+</RelativeLayout>
+
+
