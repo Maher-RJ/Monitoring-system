@@ -13,10 +13,11 @@
 
 
 ## Laravel Installation
-###### To Start the Laravel Project
-######  1) Downloading ######  1.1) Clone the Repository
+To Start the Laravel Project
+1) Downloading 1.1) Clone the Repository
+```
 git clone https://github.com/Maher-RJ/Monitoring-system.git
-
+```
 
 and then download the folder from my repository and put it in Desktop then you need to edit .env file to make the database work, in .env file you will need to edit DB_DATABASE and put there the path of data.sqlite which you will find it also in folder Laravel->database. After this you need just to start the server in Terminal by using "php artisan serve --host=192.168.0.55 --port=8000".//Put your ip
 
