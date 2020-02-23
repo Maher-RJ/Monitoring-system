@@ -9,6 +9,10 @@ System Interfaces
 Hardware implementation of the system
 <img width="695" alt="Screenshot 2020-02-20 at 15 38 54" src="https://user-images.githubusercontent.com/57875037/74945195-99c3e080-53f7-11ea-8fa3-8821c1f005bc.png">
 
+Android App
+<img width="805" alt="Screenshot 2020-01-04 at 21 49 39" src="https://user-images.githubusercontent.com/57875037/75119472-69907200-5683-11ea-8cb2-98f3a02a54fb.png">
+
+
 
 * To Start Laravel Project, you need to install laravel framework in your computer and then download the folder from my repository and put it in Desktop then you need to edit .env file to make the database work, in .env file you will need to edit DB_DATABASE and put there the path of data.sqlite which you will find it also in folder Laravel->database. After this you need just to start the server in Terminal by using "php artisan serve --host=192.168.0.55 --port=8000".//Put your ip
 
