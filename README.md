@@ -13,7 +13,7 @@
 
 
 ## Laravel Installation
-To Start the Laravel Project
+
 1)Downloading 1.1) Clone the Repository
 ```
 git clone https://github.com/Maher-RJ/Monitoring-system.git
