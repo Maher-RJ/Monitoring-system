@@ -7,15 +7,23 @@ from machine import Pin
 from libraries.tools import getUnixTime
 node_id=getId()
 #id=1
+
+print("id")
+print(node_id)
+
 TOPICWHT = b'WTH'
 TOPICSHT = b'STH'
 TOPICLI = b'LI'
 TOPICPH=b'PH'
-
+relay_pin_no=5
+relay_pin=Pin(relay_pin_no,Pin.OUT)
+relay_pin.value(1)
 SlEEP_TIME=10
 doConnection()
 client = MQTTClient(str(node_id), SERVERIP)
 client.connect()   # Connect to MQTT broker
+
+print("MQTT process")
 
 def sendWTH(stamp):
     weather = readDht()
@@ -69,5 +77,5 @@ while True:
         sendPh(stamp)
     else:
         node_id=getId()
-    
+
     sleep(SlEEP_TIME)
