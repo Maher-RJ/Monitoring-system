@@ -14,16 +14,33 @@
 
 ## Laravel Installation
 To Start the Laravel Project
-1) Downloading 1.1) Clone the Repository
+1)Downloading 1.1) Clone the Repository
 ```
 git clone https://github.com/Maher-RJ/Monitoring-system.git
 ```
-
-and then download the folder from my repository and put it in Desktop then you need to edit .env file to make the database work, in .env file you will need to edit DB_DATABASE and put there the path of data.sqlite which you will find it also in folder Laravel->database. After this you need just to start the server in Terminal by using "php artisan serve --host=192.168.0.55 --port=8000".//Put your ip
-
+2)Install the Dependencies via Composer 2.1) If you don't have composer installed globally
+```
+cd your-folder
+curl -s http://getcomposer.org/installer | php
+php composer.phar install
+```
+2.2)For globally composer installations
+```
+cd your-folder
+composer install
+```
+Finally 
+```
+cd to-laravel-folder
+php artisan serve --host=192.168.0.## --port=8000  //your ip
+```
+To make the database work, in .env file you will need to edit DB_DATABASE and put there the path of data.sqlite which you will find it also in folder Laravel->database.
+```
+DB_DATABASE=/Users/MJ/Desktop/Laravel/database/data.sqlite  //I use mac, instead of MJ, put your mac home folder name
+```
 <img width="1230" alt="login" src="https://user-images.githubusercontent.com/57875037/75121282-d52e0b80-5692-11ea-94ed-d42615724450.png">
 
-
-* For the android app after you open it with android studio, you need first to change in Request.kt and put there the ip adress of laravel server in public val url: String. Becuase the mobile app has to send an email and password using post HTTP request to the web API
+## Android
+For the android app after you open it with android studio, you need first to change in Request.kt and put there the ip adress of laravel server in public val url: String. Becuase the mobile app has to send an email and password using post HTTP request to the web API
 
 <img width="805" alt="Screenshot 2020-01-04 at 21 49 39" src="https://user-images.githubusercontent.com/57875037/75119472-69907200-5683-11ea-8cb2-98f3a02a54fb.png">
