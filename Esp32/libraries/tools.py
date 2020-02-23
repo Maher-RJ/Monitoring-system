@@ -7,9 +7,11 @@ def getId():
     node_id=0
     mac=getMacAdd()
     url='http://'+SERVERIP+':5000/getid/'+mac
+    '''
     try:
         value = urequests.get(url)
         node_id=int(value.text)
     except OSError:
         print("error in connection")
-    return node_id
+    '''   
+    return 5
