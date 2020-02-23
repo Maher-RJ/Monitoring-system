@@ -24,7 +24,7 @@ cd your-folder
 curl -s http://getcomposer.org/installer | php
 php composer.phar install
 ```
-2.2)For globally composer installations (Recommended!)
+2.2)For globally composer installations (### Recommended!)
 ```
 cd Laravel-folder 
 composer install
