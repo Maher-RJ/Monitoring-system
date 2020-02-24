@@ -1,6 +1,6 @@
-SERVERIP='192.168.#.#'
-IISD='COMHEM'
-PASSWORD=''
+SERVERIP='192.168.0.70'  #put the ip of rasberry pi (base station)
+IISD='COMHEM'            # wifi name
+PASSWORD=''              # wifi password
 
 
 def doConnection():
