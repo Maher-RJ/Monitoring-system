@@ -24,19 +24,21 @@ cd your-folder
 curl -s http://getcomposer.org/installer | php
 php composer.phar install
 ```
-##### 2.2)For globally composer installations (Recommended!)
+2.2)For globally composer installations (Recommended!)
 ```
 cd Laravel-folder 
 composer install
-```
-Finally in Laravel Folder
-``` 
-php artisan serve --host=192.168.0.## --port=8000  //put your ip instead of ##
 ```
 To make the database work, in .env file you will need to edit DB_DATABASE and put there the path of data.sqlite which you will find it also in folder Laravel->database.
 ```
 DB_DATABASE=/Users/MJ/Desktop/Laravel/database/data.sqlite  //I use mac, instead of MJ, put your mac home folder name
 ```
+
+Finally in Laravel Folder
+``` 
+php artisan serve --host=192.168.0.## --port=8000  //put your ip instead of ##
+```
+
 <img width="1230" alt="login" src="https://user-images.githubusercontent.com/57875037/75121282-d52e0b80-5692-11ea-94ed-d42615724450.png">
 
 ## Android
