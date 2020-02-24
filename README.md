@@ -36,7 +36,7 @@ DB_DATABASE=/Users/MJ/Desktop/Laravel/database/data.sqlite  //I use mac, instead
 
 Finally in Laravel Folder
 ``` 
-php artisan serve --host=192.168.0.## --port=8000  //put your ip instead of ##
+php artisan serve --host=192.168.0.40 --port=8000  //put your ip 
 ```
 
 <img width="1230" alt="login" src="https://user-images.githubusercontent.com/57875037/75121282-d52e0b80-5692-11ea-94ed-d42615724450.png">
