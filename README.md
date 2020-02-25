@@ -31,7 +31,9 @@ composer install
 ```
 To make the database work, in .env file you will need to edit DB_DATABASE and put there the path of data.sqlite which you will find it also in folder Laravel->database.
 ```
-DB_DATABASE=/Users/MJ/Desktop/Laravel/database/data.sqlite  //I use mac, instead of MJ, put your mac home folder name
+cd Laravel-folder
+sudo nano .env
+DB_DATABASE=/Users/MJ/Desktop/Laravel/database/data.sqlite  //I use mac if you use mac too then instead of MJ, put your mac home folder name
 ```
 
 Finally in Laravel Folder
@@ -42,6 +44,11 @@ php artisan serve --host=192.168.0.40 --port=8000  //put your ip
 <img width="1230" alt="login" src="https://user-images.githubusercontent.com/57875037/75121282-d52e0b80-5692-11ea-94ed-d42615724450.png">
 
 ## Android
-For the android app after you open it with android studio, you need first to change in Request.kt and put there the ip adress of laravel server in public val url: String. Becuase the mobile app has to send an email and password using post HTTP request to the web API
+After you clone my Android repository, open Android studio and choose
+``` Open an existing Android studio proejct``` 
+then open my android folder and choose ``` build.gradle ```. 
+You need to make some change in file``` Request.kt```.
+in ```public val url: String = "http://192.168.0.11:8000/api/"```
+Change it to your Laravel localhost ip adress. Becuase the mobile app has to send an email and password using post HTTP request to the web API
 
 <img width="805" alt="Screenshot 2020-01-04 at 21 49 39" src="https://user-images.githubusercontent.com/57875037/75119472-69907200-5683-11ea-8cb2-98f3a02a54fb.png">
