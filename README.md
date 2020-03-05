@@ -44,9 +44,8 @@ php artisan serve --host=192.168.0.11 --port=8000  //put your ip
 
 <img width="1230" alt="login" src="https://user-images.githubusercontent.com/57875037/75121282-d52e0b80-5692-11ea-94ed-d42615724450.png">
 
-<img width="1241" alt="AirHumCHart" src="https://user-images.githubusercontent.com/57875037/75376679-ba48da80-58d0-11ea-8e5d-b06eef73f7ab.png">
 
-
+![viber_image_2020-02-29_17-13-38](https://user-images.githubusercontent.com/57875037/76008662-4cc02e00-5f10-11ea-98f8-37d9ebd3ee87.jpg)
 
 
 ## Android
