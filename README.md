@@ -41,11 +41,13 @@ Finally in Laravel Folder
 cd Laravel-folder
 php artisan serve --host=192.168.0.11 --port=8000  //put your ip 
 ```
+note! i use md5 hash, by defualt the password is "secret"
 
 <img width="1230" alt="login" src="https://user-images.githubusercontent.com/57875037/75121282-d52e0b80-5692-11ea-94ed-d42615724450.png">
 
 
 ![viber_image_2020-02-29_17-13-38](https://user-images.githubusercontent.com/57875037/76008662-4cc02e00-5f10-11ea-98f8-37d9ebd3ee87.jpg)
+
 
 
 ## Android
@@ -55,5 +57,7 @@ then open my android folder and choose ``` build.gradle ```.
 You need to make some change in file``` Request.kt```.
 in ```public val url: String = "http://192.168.0.11:8000/api/"```
 Change it to your Laravel localhost ip adress. Becuase the mobile app has to send an email and password using post HTTP request to the web API
+
+note! password is "secret"
 
 <img width="805" alt="Screenshot 2020-01-04 at 21 49 39" src="https://user-images.githubusercontent.com/57875037/75119472-69907200-5683-11ea-8cb2-98f3a02a54fb.png">
