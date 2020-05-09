@@ -6,10 +6,6 @@
 
 <img width="715" alt="Screenshot 2020-02-20 at 15 38 22" src="https://user-images.githubusercontent.com/57875037/74945126-75680400-53f7-11ea-8505-ce49083625a7.png">
 
-## Hardware implementation of the system
-<img width="695" alt="Screenshot 2020-02-20 at 15 38 54" src="https://user-images.githubusercontent.com/57875037/74945195-99c3e080-53f7-11ea-8fa3-8821c1f005bc.png">
-
-
 
 
 ## Laravel Installation
