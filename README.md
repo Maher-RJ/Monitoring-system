@@ -2,10 +2,15 @@
 
 <img width="692" alt="Screenshot 2020-02-20 at 15 31 09" src="https://user-images.githubusercontent.com/57875037/74944246-09d16700-53f6-11ea-947f-ddb00f5af8a7.png">
 
+## Raspberry Pi Api Diagram
+![Raspberry pi API diagram](https://user-images.githubusercontent.com/57875037/84204927-5ecfe080-aaac-11ea-9022-86f8bb5dbd7e.png) 
+
+## Node Processing Stage
+![Node Processing Stage](https://user-images.githubusercontent.com/57875037/84204992-82932680-aaac-11ea-9660-bf65beb5cc7a.png)
+
 ## System Interfaces
 
 <img width="715" alt="Screenshot 2020-02-20 at 15 38 22" src="https://user-images.githubusercontent.com/57875037/74945126-75680400-53f7-11ea-8505-ce49083625a7.png">
-
 
 
 ## Laravel Installation
@@ -57,3 +62,9 @@ Change it to your Laravel localhost ip adress. Becuase the mobile app has to sen
 note! password is "secret"
 
 <img width="805" alt="Screenshot 2020-01-04 at 21 49 39" src="https://user-images.githubusercontent.com/57875037/75119472-69907200-5683-11ea-8cb2-98f3a02a54fb.png">
+
+## Mobile Application Login Process Diagram
+![Mobile Application Login Process Diagram (1)](https://user-images.githubusercontent.com/57875037/84205046-99397d80-aaac-11ea-93cd-c5fa2c964887.png)
+
+## Mobile Application Services Diagram
+![Mobile Application Services Diagram (1)](https://user-images.githubusercontent.com/57875037/84205051-9b034100-aaac-11ea-98fc-5d63402479c9.png )
