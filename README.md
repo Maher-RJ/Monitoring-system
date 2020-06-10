@@ -1,13 +1,13 @@
 # Monitoring-system
 
-![Block diagram of final design (4)](https://user-images.githubusercontent.com/57875037/84215751-9304ca80-aac7-11ea-9ca6-bd779ad844f1.png)
-
+![Block diagram of final design (6)](https://user-images.githubusercontent.com/57875037/84218779-6a80ce80-aacf-11ea-8136-d4ec0299d1f6.png)
 
 ## Raspberry Pi Api Diagram
-![Raspberry pi API diagram](https://user-images.githubusercontent.com/57875037/84204927-5ecfe080-aaac-11ea-9022-86f8bb5dbd7e.png) 
+![rsz_raspberry_pi_api_diagram](https://user-images.githubusercontent.com/57875037/84219168-2e01a280-aad0-11ea-8805-88adb7f1e98d.png)
 
 ## Node Processing Stage
-![Node Processing Stage](https://user-images.githubusercontent.com/57875037/84204992-82932680-aaac-11ea-9660-bf65beb5cc7a.png)
+![rsz_node_processing_stage](https://user-images.githubusercontent.com/57875037/84219043-f85cb980-aacf-11ea-8efa-17a404ecf49a.png)
+
 
 ## System Interfaces
 
