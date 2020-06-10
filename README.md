@@ -1,6 +1,7 @@
 # Monitoring-system
 
-<img width="692" alt="Screenshot 2020-02-20 at 15 31 09" src="https://user-images.githubusercontent.com/57875037/74944246-09d16700-53f6-11ea-947f-ddb00f5af8a7.png">
+![Block diagram of final design (4)](https://user-images.githubusercontent.com/57875037/84215751-9304ca80-aac7-11ea-9ca6-bd779ad844f1.png)
+
 
 ## Raspberry Pi Api Diagram
 ![Raspberry pi API diagram](https://user-images.githubusercontent.com/57875037/84204927-5ecfe080-aaac-11ea-9022-86f8bb5dbd7e.png) 
