@@ -1,6 +1,6 @@
 # Monitoring-system
 
-![Block diagram of final design (6)](https://user-images.githubusercontent.com/57875037/84218779-6a80ce80-aacf-11ea-8136-d4ec0299d1f6.png)
+![Block diagram of final design](https://user-images.githubusercontent.com/57875037/85478154-01638580-b5bc-11ea-8d89-4ab3cedaaab8.png)
 
 ![IMG_3082](https://user-images.githubusercontent.com/57875037/84219448-dd3e7980-aad0-11ea-9576-4f27669f41e2.jpg)
 
