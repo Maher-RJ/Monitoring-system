@@ -18,7 +18,7 @@ git clone https://github.com/Maher-RJ/Monitoring-system.git
 ```
 2)Install the Dependencies via Composer 2.1) If you don't have composer installed globally
 ```
-cd your-folder
+cd Laravel-folder  //the folder you cloned
 curl -s http://getcomposer.org/installer | php
 php composer.phar install
 ```
@@ -39,7 +39,7 @@ Finally in Laravel Folder
 cd Laravel-folder
 php artisan serve --host=192.168.0.11 --port=8000  //put your ip 
 ```
-note! i use md5 hash, by defualt the password is "secret"
+note! i use md5 hash, by defualt the password is "secret" and email is maherj@kth.se
 
 ## Android
 After you clone my Android repository, open Android studio and choose
@@ -49,7 +49,7 @@ You need to make some change in file``` Request.kt```.
 in ```public val url: String = "http://192.168.0.11:8000/api/"```
 Change it to your Laravel localhost ip adress. Becuase the mobile app has to send an email and password using post HTTP request to the web API
 
-note! password is "secret"
+note! password is "secret" and email is maherj@kth.se
 
 ## Raspberry Pi Api Diagram
 ![rsz_raspberry_pi_api_diagram](https://user-images.githubusercontent.com/57875037/84219168-2e01a280-aad0-11ea-8805-88adb7f1e98d.png)
