@@ -1,4 +1,2 @@
 *.python linguist-detectable=true
-*.javascript linguist-detectable=false
-*.html linguist-detectable=false
-*.PHP linguist-detectable=false
+*.blade.php linguist-vendored
