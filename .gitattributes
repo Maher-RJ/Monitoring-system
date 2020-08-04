@@ -1,1 +1,1 @@
-php linguist-vendored=false
+*.php linguist-vendored=false
