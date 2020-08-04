@@ -1,4 +1,6 @@
 * linguist-language=Python
-* linguist-language=Kotlin
+platforms/* linguist-vendored=true
+plugins/* linguist-vendored=true
+public/* linguist-vendored=true
 
 
