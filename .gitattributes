@@ -1,2 +1,1 @@
-* linguist-vendored
-*.python linguist-vendored=false
+*.PHP linguist-language=Python
