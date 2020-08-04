@@ -1,4 +1,4 @@
-*.java linguist-detectable=true
+*.python linguist-detectable=true
 *.javascript linguist-detectable=true
 *.html linguist-detectable=true
-*.php linguist-detectable=false
+*.PHP linguist-detectable=false
