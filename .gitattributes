@@ -1,4 +1,4 @@
 *.python linguist-detectable=true
 *.javascript linguist-detectable=true
-*.html linguist-detectable=true
+*.kotlin linguist-detectable=true
 *.PHP linguist-detectable=false
