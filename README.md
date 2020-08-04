@@ -34,7 +34,7 @@ composer global require laravel/installer
 git clone https://github.com/Maher-RJ/Monitoring-system.git
 ```
 
-5) update the composer
+5) update the composer// very importan, otherwise u get error in the terminal with the autoload.php
 ```
 cd path-of-the-Laravel-folder  //the folder you cloned in monitoring system
 composer updat
