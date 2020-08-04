@@ -12,30 +12,34 @@
 
 ## Laravel Installation (Mac Users) for other OS use https://laravel.com/docs/7.x
 
-1) Download php and composer from terminal
+1)Install HomeBrew, if you don't have it already
 ```
-brew install php composer // if you dont have brew then install it from www.brew.sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
-1.1) Make sure to place composer’s system-wide vendor bin directory in your $PATH so the Laravel executable can be located by your system.
+2) Download php and composer from terminal
+```
+brew install php composer
+```
+2.1) Make sure to place composer’s system-wide vendor bin directory in your $PATH so the Laravel executable can be located by your system.
 ```
 echo 'export PATH="$PATH:$HOME/.composer/vendor/bin"' >> ~/.bash_profile
 source ~/.bash_profile
 ```
-2) Laravel Installation
+3) Laravel Installation
 ```
 composer global require laravel/installer
 ```
-3) Clone the Repository
+4) Clone the Repository
 ```
 git clone https://github.com/Maher-RJ/Monitoring-system.git
 ```
 
-4) update the composer
+5) update the composer
 ```
 cd path-of-the-Laravel-folder  //the folder you cloned in monitoring system
 composer updat
 ```
-5) Fix Database file Path
+6) Fix Database file Path
 To make the database work, in .env file you will need to edit DB_DATABASE and put there the path of data.sqlite which you will find it also in folder Laravel->database.
 ```
 cd Laravel-folder
@@ -43,7 +47,7 @@ sudo nano .env
 DB_DATABASE=/Users/MJ/Desktop/Monitoring-system-master/Laravel/database/data.sqlite  //I use mac if you use mac too then instead of MJ, put your mac home folder name
 ```
 
-6)Finally in Laravel Folder
+7)Finally in Laravel Folder
 ``` 
 cd Laravel-folder
 php artisan serve --host=192.168.0.11 --port=8000  //put your ip 
