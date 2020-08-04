@@ -10,42 +10,40 @@
 
 <img width="805" alt="Screenshot 2020-01-04 at 21 49 39" src="https://user-images.githubusercontent.com/57875037/75119472-69907200-5683-11ea-8cb2-98f3a02a54fb.png">
 
-## Laravel Installation
+## Laravel Installation (Mac Users) for other OS use https://laravel.com/docs/7.x
 
-1)Downloading 1.1) Clone the Repository
+1) Download php and composer from terminal
 ```
-git clone https://github.com/Maher-RJ/Monitoring-system.git
+brew install php composer // if you dont have brew then install it from www.brew.sh
 ```
-2)Install the Dependencies via Composer 2.1) If you don't have composer installed globally
-```
-cd Laravel-folder  //the folder you cloned from github monitoring system
-curl -s http://getcomposer.org/installer | php
-php composer.phar install
-```
-2.2)For globally composer installations (Recommended!)
-```
-cd Laravel-folder 
-composer install
-```
-2.3)For Mac users, Make sure to place composer’s system-wide vendor bin directory in your $PATH so the Laravel executable can be located by your system.
+1.1) Make sure to place composer’s system-wide vendor bin directory in your $PATH so the Laravel executable can be located by your system.
 ```
 echo 'export PATH="$PATH:$HOME/.composer/vendor/bin"' >> ~/.bash_profile
 source ~/.bash_profile
 ```
-2.4) update the composer
+2) Laravel Installation
 ```
-cd Laravel-folder  //the folder you cloned in monitoring system
+composer global require laravel/installer
+```
+3) Clone the Repository
+```
+git clone https://github.com/Maher-RJ/Monitoring-system.git
+```
+
+4) update the composer
+```
+cd path-of-the-Laravel-folder  //the folder you cloned in monitoring system
 composer updat
 ```
-3) Fix Database file Path
+5) Fix Database file Path
 To make the database work, in .env file you will need to edit DB_DATABASE and put there the path of data.sqlite which you will find it also in folder Laravel->database.
 ```
 cd Laravel-folder
 sudo nano .env
-DB_DATABASE=/Users/MJ/Desktop/Laravel/database/data.sqlite  //I use mac if you use mac too then instead of MJ, put your mac home folder name
+DB_DATABASE=/Users/MJ/Desktop/Monitoring-system-master/Laravel/database/data.sqlite  //I use mac if you use mac too then instead of MJ, put your mac home folder name
 ```
 
-4)Finally in Laravel Folder
+6)Finally in Laravel Folder
 ``` 
 cd Laravel-folder
 php artisan serve --host=192.168.0.11 --port=8000  //put your ip 
