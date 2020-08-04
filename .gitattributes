@@ -1,0 +1,2 @@
+*.PHP linguist-language=Python
+*.Python linguist-language=PHP
