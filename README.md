@@ -4,7 +4,7 @@
 
 ![IMG_3082](https://user-images.githubusercontent.com/57875037/84219448-dd3e7980-aad0-11ea-9576-4f27669f41e2.jpg)
 
-![login](https://user-images.githubusercontent.com/57875037/91673056-60042d00-eb32-11ea-94e2-7edfc5d310c6.jpeg)
+<img width="1230" alt="login" src="https://user-images.githubusercontent.com/57875037/91673086-87f39080-eb32-11ea-9cc0-0bf39e290380.png">
 
 ![viber_image_2020-02-29_17-13-38](https://user-images.githubusercontent.com/57875037/76008662-4cc02e00-5f10-11ea-98f8-37d9ebd3ee87.jpg)
 
