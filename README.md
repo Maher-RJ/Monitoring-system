@@ -1,3 +1,5 @@
+Full information about the project can be found in Report(Bachelor Thesis).pdf
+
 # Monitoring-system
 
 ![Block diagram of final design](https://user-images.githubusercontent.com/57875037/85478154-01638580-b5bc-11ea-8d89-4ab3cedaaab8.png)
